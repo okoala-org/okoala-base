@@ -1,0 +1,22 @@
+[package]
+name = "okoala-types"
+description = "JMAP wire types and shared protocol logic for OKoala"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+chrono.workspace = true
+
+[dev-dependencies]
+proptest.workspace = true
+insta.workspace = true
+
+[lints]
+workspace = true
